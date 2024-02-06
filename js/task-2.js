@@ -2,7 +2,7 @@ class Storage {
 	#items = [];
 
 	constructor(itemsList) {
-		this.#items = [...this.#items, ...itemsList];
+		this.#items = itemsList;
 	}
 
 	getItems() {
